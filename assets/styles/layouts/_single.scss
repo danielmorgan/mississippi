@@ -25,6 +25,16 @@
     }
   }
 
+  .tiled-gallery-caption {
+    background: rgba($brand-primary, 0.75);
+    border: 2px solid $white;
+    color: $white;
+    font-size: 16px;
+    @media screen and (min-width: $screen-sm-min) {
+      font-size: 18px;
+    }
+  }
+
   .comments {
     padding: 20px;
     @media screen and (min-width: $screen-sm-min) {
