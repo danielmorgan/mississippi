@@ -4,7 +4,7 @@
       <a href="<?php the_permalink(); ?>">
         <div class="overlay"></div>
       </a>
-      <?php the_post_thumbnail(); ?>
+      <?php the_post_thumbnail('large'); ?>
   </header>
   <div class="entry-summary">
     <?php the_excerpt(); ?>
