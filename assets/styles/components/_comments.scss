@@ -24,4 +24,8 @@
     @extend .btn;
     @extend .btn-primary;
   }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 }
